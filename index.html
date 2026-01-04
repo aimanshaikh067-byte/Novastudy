@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Hello, World!</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+      <h1 class="title">Hello World!</h1>
+      <p id="currentTime"></p>
+      <script src="script.js"></script>
+  </body>
+</html<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Nova Study | Study Smarter, Live Lighter</title>
+  <style>
+    :root {
+      --primary: #4a90e2;
+      --secondary: #e9f2ff;
+      --text: #333;
+      --bg: #fff;
+    }
+    body {
+      margin: 0;
+      font-family: 'Poppins', sans-serif;
+      background-color: var(--bg);
+      color: var(--text);
+      line-height: 1.6;
+    }
+    header {
+      background: var(--secondary);
+      padding: 40px 20px;
+      text-align: center;
+    }
+    header h1 {
+      color: var(--primary);
+      font-size: 2.5rem;
+      margin-bottom: 10px;
+    }
+    header p {
+      font-size: 1.2rem;
+      margin-bottom: 20px;
+    }
+    header .btn {
+      background: var(--primary);
+      color: white;
+      padding: 12px 25px;
+      border-radius: 5px;
+      text-decoration: none;
+      font-weight: 500;
+      transition: background 0.3s ease;
+    }
+    header .btn:hover {
+      background: #357abd;
+    }
+    section {
+      padding: 60px 20px;
+      max-width: 900px;
+      margin: auto;
+    }
+    h2 {
+      color: var(--primary);
+      text-align: center;
+      margin-bottom: 20px;
+    }
+    .steps {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-around;
+      text-align: center;
+    }
+    .step {
+      flex: 1 1 200px;
+      background: var(--secondary);
+      margin: 10px;
+      padding: 20px;
+      border-radius: 10px;
+    }
+    .faq-item {
+      background: var(--secondary);
+      margin: 10px 0;
+      padding: 15px;
+      border-radius: 8px;
+    }
+    .testimonial {
+      background: var(--secondary);
+      padding: 20px;
+      border-radius: 10px;
+      margin: 15px 0;
+      font-style: italic;
+    }
+    footer {
+      background: var(--primary);
+      color: white;
+      text-align: center;
+      padding: 20px;
+    }
+    footer a {
+      color: white;
+      margin: 0 10px;
+      text-decoration: none;
+      font-weight: 500;
+    }
+    footer a:hover {
+      text-decoration: underline;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Nova Study</h1>
+    <p>Study smarter, live lighter.</p>
+    <a href="#how-it-works" class="btn">Learn How It Works</a>
+  </header>
+
+  <section id="how-it-works">
+    <h2>How It Works</h2>
+    <div class="steps">
+      <div class="step">
+        <h3>1. Write or Upload</h3>
+        <p>Type your question or upload a picture of your homework.</p>
+      </div>
+      <div class="step">
+        <h3>2. Get Step-by-Step Help</h3>
+        <p>Nova explains each step clearly so you can understand, not just copy.</p>
+      </div>
+      <div class="step">
+        <h3>3. Save Your Work</h3>
+        <p>Review your solution history anytime to track your learning progress.</p>
+      </div>
+      <div class="step">
+        <h3>4. Learn Smarter</h3>
+        <p>Use Nova daily to improve your skills and confidence in every subject.</p>
+      </div>
+    </div>
+  </section>
+
+  <section id="about">
+    <h2>About Nova Study</h2>
+    <p style="text-align:center;">
+      Nova Study is an AI-powered study assistant designed for students from grades 5–12. 
+      Whether you’re stuck on math, science, or language homework, Nova helps you understand 
+      the logic behind each solution, making learning simple, fun, and effective.
+    </p>
+  </section>
+
+  <section id="faq">
+    <h2>FAQ</h2>
+    <div class="faq-item">
+      <strong>Can I upload pictures of my homework?</strong>
+      <p>Yes! Nova can analyze your handwritten or printed questions.</p>
+    </div>
+    <div class="faq-item">
+      <strong>Will it show me only answers?</strong>
+      <p>No — Nova explains each step to help you truly understand the concept.</p>
+    </div>
+    <div class="faq-item">
+      <strong>Is my data saved?</strong>
+      <p>Yes, you can review your solution history anytime.</p>
+    </div>
+  </section>
+
+  <section id="testimonials">
+    <h2>What Students Say</h2>
+    <div class="testimonial">“Nova helped me finally understand algebra!” — Ananya, Grade 9</div>
+    <div class="testimonial">“It’s like having a friendly tutor 24/7.” — Rohan, Grade 7</div>
+    <div class="testimonial">“Super easy to use, even on my phone!” — Priya, Grade 10</div>
+  </section>
+
+  <footer>
+    <p>© 2026 Nova Study. All rights reserved.</p>
+    <p>
+      <a href="#about">About</a> |
+      <a href="#faq">FAQ</a> |
+      <a href="#testimonials">Testimonials</a>
+    </p>
+  </footer>
+</body>
+</html>
